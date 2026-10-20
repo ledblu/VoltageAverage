@@ -1,0 +1,20 @@
+{
+  "name": "Voltage Average",
+  "apiVersion": "1.0.0",
+  "author": "Stefano Nervi",
+  "version": "0.0.1",
+  "description": "Analog measurement for average voltage",
+  "extensions": {
+    "media": {
+      "type": "AnalogMeasurement",
+      "entryPoint": "voltage_average.voltage_average_meas",
+      "metrics": {
+        "avg": {
+          "name": "Average",
+          "notation": "V<sub>avg</sub>",
+          "units": "V"
+        }
+      }
+    }
+  }
+}
